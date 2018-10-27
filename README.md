@@ -1,2 +1,2 @@
-# gukggkjgnmmn
-ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+# RainbowBot
+Discord Rainbow Bot Role !
