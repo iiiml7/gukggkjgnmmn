@@ -3,7 +3,7 @@ const client = new Client();
 
 client.on('ready', () => {
     setInterval(function(){
-        client.guilds.get('333278908357017612').roles.find('name', 'R').edit({color: 'RGB'}) 
+        client.guilds.get('333278908357017612').roles.find('name', 'R').edit({color: '1,2,3,4,5,6,7,8,9,10'}) 
     },50);
 
 });
