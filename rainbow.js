@@ -4,7 +4,7 @@ const client = new Client();
 client.on('ready', () => {
     setInterval(function(){
         client.guilds.get('474651676880535554').roles.find('name', 'R').edit({color: 'RANDOM'}) 
-    },60000);
+    },1500);
 
 });
 client.on('ready', () => {
