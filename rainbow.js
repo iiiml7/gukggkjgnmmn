@@ -11,9 +11,9 @@ bot.on('ready', () => {
     bot.user.setStatus('available')
     bot.user.setPresence({
         game: {
-            name: 'with depression',
+            name: 'K i R o X | Rainbow',
             type: "STREAMING",
-            url: "https://www.twitch.tv/monstercat"
+            url: "https://www.twitch.tv/iiiML7"
         }
     });
 });
