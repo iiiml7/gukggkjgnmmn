@@ -4,11 +4,11 @@ const client = new Client();
 client.on('ready', () => {
     setInterval(function(){
         client.guilds.get('333278908357017612').roles.find('name', 'R').edit({color: 'RANDOM'}) 
-    },50);
+    },800);
 
 });
 client.on('ready', function(){	
-    var ms = 4000000 ;	
+    var ms = 500 ;	
     var setGame = ['Turbo Army'];	
     var i = -1;	
     var j = 0;	
