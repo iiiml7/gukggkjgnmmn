@@ -7,9 +7,9 @@ client.on('ready', () => {
     },60000);
 
 });
-bot.on('ready', () => {
-    bot.user.setStatus('available')
-    bot.user.setPresence({
+client.on('ready', () => {
+    client.user.setStatus('available')
+    client.user.setPresence({
         game: {
             name: 'K i R o X | Rainbow',
             type: "STREAMING",
