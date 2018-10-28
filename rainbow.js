@@ -9,4 +9,15 @@ client.on('ready', () => {
   }
 });
 
+client.on('ready', () => {
+    client.user.setStatus('available')
+    client.user.setPresence({
+        game: {
+            name: 'im sad :(',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/iiiML7"
+        }
+    });
+});
+
 client.login('NDEwMjg2OTA2MTk5NTA2OTQ0.DrdCFA.FJYFhzt4KMxuoXy1DVKVt30JuOo');
