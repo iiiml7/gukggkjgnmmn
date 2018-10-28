@@ -6,8 +6,8 @@ client.on('ready', () => {
         client.guilds.get('333278908357017612').roles.find('name', 'R').edit({color: 'RANDOM'}) 
     },1500);
     
-  }
-});
+}
+          );
 
 client.on('ready', () => {
     client.user.setStatus('available')
