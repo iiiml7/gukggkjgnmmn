@@ -9,5 +9,5 @@
 	"roleName": "R",
 	"colors": 100,
 	"speed": 600,
-	"logging": true
+	"logging": false
 }
