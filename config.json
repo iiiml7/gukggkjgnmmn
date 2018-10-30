@@ -4,10 +4,10 @@
 	"token": "NDEwMjg2OTA2MTk5NTA2OTQ0.DrdCFA.FJYFhzt4KMxuoXy1DVKVt30JuOo",
 	"servers": [
 		"333278908357017612",
-		"ID 2ND SERVER"
+		"333278908357017612"
 	],
 	"roleName": "R",
-	"colors": 300,
+	"colors": 100,
 	"speed": 600,
 	"logging": true
 }
