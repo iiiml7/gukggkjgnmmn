@@ -1,13 +1,13 @@
 
 
 {
-	"token": "NDEwMjg2OTA2MTk5NTA2OTQ0.DroHiQ.8s8udpOjQZ9yS2VlesrwjDbaeFo",
+	"token": "NDEwMjg2OTA2MTk5NTA2OTQ0.DroM_A.Vc7IHDhnloXx8GbuVAVr2xPXQ5g",
 	"servers": [
 		"333278908357017612",
 		"333278908357017612"
 	],
 	"roleName": "R",
 	"colors": 100,
-	"speed": 600,
+	"speed": 250,
 	"logging": false
 }
