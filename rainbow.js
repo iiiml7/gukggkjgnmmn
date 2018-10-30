@@ -25,10 +25,10 @@ let place = 0;
 const servers = config.servers;
 
 function changeColor() {
-  for (let index = 0; index < servers.length; ++index) {
+  for (let index = 0; index < servers.length; ++index) {		
     client.guilds.get(servers[index]).roles.find('name', config.roleName).setColor(rainbow[place])
 		.catch(console.error);
-
+		
     if(config.logging){
       console.log(`[ColorChanger] Changed color to ${rainbow[place]} in server: ${servers[index]}`);
     }
@@ -42,13 +42,9 @@ function changeColor() {
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
-  if(config.speed < 10){console.log("speed ist zu hoch!"); process.exit(1);}
+  if(config.speed < 60000){console.log("The minimum speed is 60.000, if this gets abused your bot might get IP-banned"); process.exit(1);}
   setInterval(changeColor, config.speed);
 });
-
-
-
-
 
 
 client.login(config.token);
