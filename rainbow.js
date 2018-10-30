@@ -49,16 +49,6 @@ client.on('ready', () => {
 
 
 
-client.on('ready', () => {
-    client.user.setStatus('available')
-    client.user.setPresence({
-        game: {
-            name: 'ملووووووحي ',
-            type: "STREAMING",
-            url: "https://www.twitch.tv/iiiML7"
-        }
-    });
-});
 
 
 client.login(config.token);
